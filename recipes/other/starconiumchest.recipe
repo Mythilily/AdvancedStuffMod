@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "starconium", "count" : 10 },
+    { "item" : "xerotheumrod", "count" : 10 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "starconiumchest", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "craftingmanipulator", "craftingseperator", "armors", "all" ]
+}

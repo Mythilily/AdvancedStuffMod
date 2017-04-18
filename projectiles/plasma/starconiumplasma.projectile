@@ -1,0 +1,24 @@
+{
+  "projectileName" : "starconiumplasma",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "scplasmaicon.png",
+  "image" : "scplasma.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 2,
+  "power" : 50,
+  "speed" : 150,
+  "emitters" : [ "electricplasma" ],
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [
+    "electrified"
+  ],
+  "lightColor" : [150, 0, 150],
+  "damageKind" : "electricplasma"
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "starconium", "count" : 40 },
+    { "item" : "erythritebar", "count" : 40 },
+    { "item" : "plutoniumrod", "count" : 20 }
+  ],
+  "duration" : 7,
+  "output" : { "item" : "ultimatestoragelocker", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "craftingmanipulator", "craftingseperator", "objects", "all" ]
+}

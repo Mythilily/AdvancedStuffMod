@@ -1,0 +1,45 @@
+{
+  "itemName" : "starconiumaxe",
+  "price" : 2000,
+  "maxStack" : 1,
+  "level" : 7,
+  "rarity" : "legendary",
+  "description" : "Purified with stars, this axe has the shape of a crescent moon.",
+  "shortdescription" : "^#b84cbc;Starconium Axe^white;",
+  "tooltipKind" : "sword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+  "category" : "axe",
+
+  "inventoryIcon" : "starconiumaxe.png",
+
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
+  "animationParts" : {
+    "blade" : "starconiumaxe.png",
+    "handle" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe_electric1.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "electric",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.95,
+    "baseDps" : 17.5,
+    "damageConfig" : {
+      "damageSourceKind" : "electricaxe",
+      "statusEffects" : [ "electrified" ],
+      "knockback" : 30
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "plutoniumrod", "count" : 2 },
+    { "item" : "erythritebar", "count" : 2 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "xerotheumrod", "count" : 1 },
+  "groups" : [ "craftingfurnace3", "all" ]
+}

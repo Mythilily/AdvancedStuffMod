@@ -1,0 +1,11 @@
+{
+  "itemName" : "starconium",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "starconium.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "An extremely powerful component.",
+  "shortdescription" : "^#b84cbc;Starconium^white;",
+  "learnBlueprintsOnPickup" : [ "starconiumblade", "starconiumspear", "starconiumhammer", "starconiumaxe", "starconiumshortsword", "starconiumdagger", "starconiumsniper", "starconiumlauncher", "starconiumchest", "starconiumhead", "starconiumlegs", "ultimatestoragelocker" ],
+
+  "materialId" : 5001
+}

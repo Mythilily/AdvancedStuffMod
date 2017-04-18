@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "erythritebar", "count" : 10 },
+    { "item" : "plutoniumrod", "count" : 10 },
+    { "item" : "durasteelbar", "count" : 20 }
+  ],
+  "duration" : 7,
+  "output" : { "item" : "elitestoragelocker", "count" : 1 },
+  "groups" : [ "craftinganvil2", "objects", "weapons", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "coalore", "count" : 12 }
+  ],
+  "duration" : 2.5,
+  "output" : { "item" : "coalpickaxe", "count" : 1 },
+  "groups" : [ "inventorstable", "tools", "all" ]
+}

@@ -1,0 +1,46 @@
+{
+  "itemName" : "starconiumhammer",
+  "price" : 1000,
+  "level" : 7,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A heavy hammer made from something unusual.",
+  "shortdescription" : "^#b84cbc;Starconium Hammer^white;",
+  "tooltipKind" : "sword",
+  "twoHanded" : true,
+  "category" : "Hammer",
+  "itemTags" : ["weapon,melee,hammer"],
+
+  "inventoryIcon" : "starconiumhammer.png",
+
+  "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
+  "animationParts" : {
+    "blade" : "starconiumhammer.png",
+    "handle" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_hammer_electric1.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "electric",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 1.5,
+    "baseDps" : 20.25,
+    "damageConfig" : {
+      "damageSourceKind" : "electrichammer",
+      "statusEffects" : [ "electrified" ]
+    }
+  },
+
+  "altAbilityType" : "elementalaura",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

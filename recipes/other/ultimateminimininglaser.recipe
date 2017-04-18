@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ultimatemininglaser", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ultimatemininglasermini", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "craftingmanipulator", "craftingseperator", "tools", "all" ]
+}

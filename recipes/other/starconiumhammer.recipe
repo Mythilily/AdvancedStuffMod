@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "starconium", "count" : 10 },
+    { "item" : "plutoniumrod", "count" : 4 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "starconiumhammer", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "craftingmanipulator", "craftingseperator", "weapons", "all" ]
+}

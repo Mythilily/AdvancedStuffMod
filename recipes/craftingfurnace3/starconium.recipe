@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "feroziumcompound", "count" : 1 },
+    { "item" : "ceruliumcompound", "count" : 1 },
+    { "item" : "imperviumcompound", "count" : 1 },
+    { "item" : "erythritebar", "count" : 2 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "starconium", "count" : 1 },
+  "groups" : [ "craftingfurnace3", "bars", "all" ]
+}

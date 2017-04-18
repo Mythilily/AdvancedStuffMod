@@ -1,0 +1,12 @@
+{
+  "itemName" : "erythriteore",
+  "price" : 0,
+  "rarity" : "legendary",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "inventoryIcon" : "erythriteore.png",
+  "description" : "Erythrite is a very useful mineral for creating some more advanced stuff.",
+  "shortdescription" : "^#7022ff;Erythrite Ore^white;",
+  "learnBlueprintsOnPickup" : [ "erythritebar" ],
+
+  "materialId" : 5012
+}

@@ -1,0 +1,26 @@
+{
+  "projectileName" : "starconiumrocket",
+  "image" : "starconiumrocket.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 3,
+  "damageKindImage" : "starconiumrocketicon.png",
+  "fallSpeed" : 0,
+  "lightColor" : [225, 0, 50],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/electricexplosionknockbackstatus.config"
+    }
+  ],
+  "statusEffects" : [
+    "electrified"
+  ],
+  "flippable" : true,
+  "power" : 10.0,
+  "speed" : 0.6,
+  "acceleration" : 80,
+
+  "physics" : "rocket",
+  "damageKind" : "plasma"
+}

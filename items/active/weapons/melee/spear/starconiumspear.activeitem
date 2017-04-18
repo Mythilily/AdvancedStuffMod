@@ -1,0 +1,46 @@
+{
+  "itemName" : "starconiumspear",
+  "price" : 1000,
+  "level" : 7,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A spear made of purified star power.",
+  "shortdescription" : "^#b84cbc;Starconium Spear^white;",
+  "tooltipKind" : "sword",
+  "twoHanded" : true,
+  "category" : "Spear",
+  "itemTags" : ["weapon,melee,spear"],
+
+  "inventoryIcon" : "starconiumspear.png",
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "starconiumspear.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear_electric1.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "electric",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.85,
+    "baseDps" : 14.25,
+    "damageConfig" : {
+      "damageSourceKind" : "electricspear",
+      "statusEffects" : [ "electrified" ]
+    }
+  },
+
+  "altAbilityType" : "elementalspin",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

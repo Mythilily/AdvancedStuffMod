@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 20 },
+    { "item" : "tungstenbar", "count" : 20 }
+  ],
+  "duration" : 7,
+  "output" : { "item" : "advancedstoragelocker", "count" : 1 },
+  "groups" : [ "ironcraftingtable", "objects", "all" ]
+}

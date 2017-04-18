@@ -1,0 +1,44 @@
+{
+  "itemName" : "starconiumshortsword",
+  "price" : 1000,
+  "level" : 7,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "A short sword purified with the power of a star.",
+  "shortdescription" : "^#b84cbc;Starconium Shortsword^white;",
+  "tooltipKind" : "sword",
+  "twoHanded" : false,
+  "category" : "Shortsword",
+  "itemTags" : ["weapon,melee,shortsword"],
+
+  "inventoryIcon" : "starconiumshortsword.png",
+
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "blade" : "starconiumshortsword.png",
+    "handle" : ""
+  },
+
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_shortsword_electric1.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "baseDps" : 12.5,
+    "damageConfig" : {
+      "damageSourceKind" : "electricshortsword",
+      "statusEffects" : [ "electrified" ]
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+
+}

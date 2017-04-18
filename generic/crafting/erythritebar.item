@@ -1,0 +1,10 @@
+{
+  "itemName" : "erythritebar",
+  "rarity" : "legendary",
+  "inventoryIcon" : "erythritebar.png",
+  "description" : "Purified erythrite.",
+  "shortdescription" : "^#7022ff;Erythrite bar^white;",
+  "learnBlueprintsOnPickup" : [ "xerotheumrod" ],
+
+  "materialId" : 5003
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "xerotheumrod",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "xerotheumrod.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A radiant and hazardous rod. It seems to emit strong microwaves. A very good fuel source.",
+  "shortdescription" : "^#00D7D7;Xerotheum rod^white;",
+  "fuelAmount" : 100,
+
+  "materialId" : 5011
+}

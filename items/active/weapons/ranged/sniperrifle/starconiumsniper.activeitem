@@ -1,0 +1,86 @@
+{
+  "itemName" : "starconiumsniper",
+  "price" : 1000,
+  "level" : 7,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A Sniper created with purified stars seems to be powerful.",
+  "shortdescription" : "^#b84cbc;Starconium sniper rifle^white;",
+  "image" : "starconiumsniper.png",
+  "category" : "sniperRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","sniperrifle"],
+
+  "inventoryIcon" : "starconiumsniper.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "starconiumsniper.png",
+    "barrel" : "",
+    "muzzleFlash" : "/animations/muzzleflash/plasmamuzzle3pink/plasmamuzzle3pink.png"
+
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/plasma_sniper1.ogg"]
+    }
+  },
+
+  "baseOffset" : [1.5, 0],
+  "muzzleOffset" : [2.845, 0.18],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 1.5,
+    "baseDps" : 17.5,
+    "energyUsage" : 60.0,
+    "inaccuracy" : 0.00001,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "starconiumplasma",
+    "projectileParameters" : {
+      "speed" : 96,
+      "knockback" : 1.5
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "piercingshot",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,38 @@
+{
+  "objectName" : "elitestoragelocker",
+  "tags" : ["storage"],
+  "printable" : false,
+  "rarity" : "Rare",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "description" : "I can store even more stuff in here.",
+  "shortdescription" : "^#0080c0;Elite storage locker^white;",
+  "race" : "generic",
+  "lightColor" : [61, 88, 102],
+
+  "inventoryIcon" : "elitelockericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "elitelocker.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "slotCount" : 320,
+  "uiConfig" : "/interface/storage/elitestoragelocker.config",
+  "frameCooldown" : 11,
+  "autoCloseCooldown" : 3600,
+  "health" : 35,
+
+  "op": "add",
+  "path": "/scripts",
+  "value": [ "/scripts/Stored.lua" ]
+}

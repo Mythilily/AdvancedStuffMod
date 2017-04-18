@@ -1,0 +1,11 @@
+[
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "coalpickaxe"} },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "mininglaser"} },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "advancedmininglaser"} },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "elitemininglaser"} },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "ultimatemininglaser"} },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "ultimatemininglasermini"} },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "starconium"} },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "advancedstoragelocker"} },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "elitestoragelocker"} }
+]
