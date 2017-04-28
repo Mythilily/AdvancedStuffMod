@@ -1,11 +1,13 @@
 {
   "itemName" : "coalpickaxe",
+  "price" : 50,
+  "category" : "Tool",
   "inventoryIcon" : "coalpickaxeicon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
   "tooltipKind" : "tool",
-  "description" : "A pickaxe made of coal. If you really want to have something better than your manipulator.",
+  "description" : "A pickaxe made of coal. If you really want to have something better than your manipulator, but it breaks really fast.",
   "shortdescription" : "Coal Pickaxe",
   "largeImage" : "coalpickaxebig.png",
   "image" : "coalpickaxe.png",
@@ -18,11 +20,11 @@
   "twoHanded" : true,
   "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ],
   "breakSound" : "/sfx/tools/pickaxe_break.ogg",
-  "durability" : 200,
+  "durability" : 100,
   "durabilityPerUse" : 1,
-  "tileDamage" : 2.25,
+  "tileDamage" : 2.0,
   "harvestLevel" : 99,
   "tileDamageBlunted" : 0.6,
   "canBeRepaired": true,
-  "durabilityRegenChart" : [ "coal", 250 ]
+  "durabilityRegenChart" : [ [ "coalore", 250 ] ]
 }

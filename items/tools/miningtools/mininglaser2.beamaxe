@@ -26,7 +26,7 @@
   "critical" : true,
   "tileDamageBlunted" : 1.0,
 
-  "endImages" : [ "/humanoid/any/ball.png", "/humanoid/any/tileglow.png", "/humanoid/any/4tileglow.png" ],
+  "endImages" : [ "/humanoid/any/ball.png", "/humanoid/any/advanced_tileglow.png", "/humanoid/any/advanced_4tileglow.png" ],
   "firePosition" : [4, 0],
   "segmentsPerUnit" : 1,
   "nearControlPointElasticity" : 0.1,
@@ -34,14 +34,14 @@
   "nearControlPointDistance" : 0.2,
   "targetSegmentRun" : 1,
   "innerBrightnessScale" : 30,
-  "firstStripeThickness" : 0.05,
-  "secondStripeThickness" : 0.1,
+  "firstStripeThickness" : 0.09,
+  "secondStripeThickness" : 0.35,
   "minBeamWidth" : 2,
   "maxBeamWidth" : 4,
   "minBeamJitter" : 0.05,
   "maxBeamJitter" : 0.1,
   "minBeamTrans" : 0.1,
   "maxBeamTrans" : 0.4,
-  "minBeamLines" : 5,
+  "minBeamLines" : 6,
   "maxBeamLines" : 10
 }
