@@ -1,0 +1,11 @@
+{
+ "input" : [
+  { "item" : "copperdrill", "count" : 1 },
+  { "item" : "unstablematter", "count" : 1 }
+ ],
+ "output" : {
+  "item" : "truecopperdrill",
+  "count" : 1
+ },
+ "groups" : [ "plain", "tools", "all" ]
+}

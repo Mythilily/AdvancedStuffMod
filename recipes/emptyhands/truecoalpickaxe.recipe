@@ -1,0 +1,11 @@
+{
+ "input" : [
+  { "item" : "coalpickaxe", "count" : 1 },
+  { "item" : "unstablematter", "count" : 1 }
+ ],
+ "output" : {
+  "item" : "truecoalpickaxe",
+  "count" : 1
+ },
+ "groups" : [ "plain", "tools", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "unstablematter",
+  "price" : 500,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "unstablematter.png",
+  "description" : "Some kind of abnormal substance. This could be useful.",
+  "shortdescription" : "Unstable Matter",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,11 @@
+{
+ "input" : [
+  { "item" : "silverpickaxe", "count" : 1 },
+  { "item" : "unstablematter", "count" : 1 }
+ ],
+ "output" : {
+  "item" : "truesilverpickaxe",
+  "count" : 1
+ },
+ "groups" : [ "plain", "tools", "all" ]
+}

@@ -1,32 +1,323 @@
 [
-{ "op":"add", "path":"/surfaceOres/0/1/-","value": [ "erythrite", 0.00] },
-{ "op":"add", "path":"/surfaceOres/1/1/-","value": [ "erythrite", 0.00] },
-{ "op":"add", "path":"/surfaceOres/2/1/-","value": [ "erythrite", 0.00] },
-{ "op":"add", "path":"/surfaceOres/3/1/-","value": [ "erythrite", 0.00] },
-{ "op":"add", "path":"/surfaceOres/4/1/-","value": [ "erythrite", 0.00] },
-{ "op":"add", "path":"/surfaceOres/5/1/-","value": [ "erythrite", 0.00] },
-{ "op":"add", "path":"/depth1/0/1/-","value": [ "erythrite", 0.00] },
-{ "op":"add", "path":"/depth1/1/1/-","value": [ "erythrite", 0.00] },
-{ "op":"add", "path":"/depth1/2/1/-","value": [ "erythrite", 0.05] },
-{ "op":"add", "path":"/depth1/3/1/-","value": [ "erythrite", 0.10] },
-{ "op":"add", "path":"/depth1/4/1/-","value": [ "erythrite", 0.25] },
-{ "op":"add", "path":"/depth1/5/1/-","value": [ "erythrite", 0.40] },
-{ "op":"add", "path":"/depth2/0/1/-","value": [ "erythrite", 0.00] },
-{ "op":"add", "path":"/depth2/1/1/-","value": [ "erythrite", 0.05] },
-{ "op":"add", "path":"/depth2/2/1/-","value": [ "erythrite", 0.20] },
-{ "op":"add", "path":"/depth2/3/1/-","value": [ "erythrite", 0.40] },
-{ "op":"add", "path":"/depth2/4/1/-","value": [ "erythrite", 0.60] },
-{ "op":"add", "path":"/depth2/5/1/-","value": [ "erythrite", 0.85] },
-{ "op":"add", "path":"/depth3/0/1/-","value": [ "erythrite", 0.10] },
-{ "op":"add", "path":"/depth3/1/1/-","value": [ "erythrite", 0.25] },
-{ "op":"add", "path":"/depth3/2/1/-","value": [ "erythrite", 0.40] },
-{ "op":"add", "path":"/depth3/3/1/-","value": [ "erythrite", 0.65] },
-{ "op":"add", "path":"/depth3/4/1/-","value": [ "erythrite", 0.85] },
-{ "op":"add", "path":"/depth3/5/1/-","value": [ "erythrite", 0.95] },
-{ "op":"add", "path":"/core/0/1/-","value": [ "erythrite", 0.20] },
-{ "op":"add", "path":"/core/1/1/-","value": [ "erythrite", 0.40] },
-{ "op":"add", "path":"/core/2/1/-","value": [ "erythrite", 0.50] },
-{ "op":"add", "path":"/core/3/1/-","value": [ "erythrite", 0.75] },
-{ "op":"add", "path":"/core/4/1/-","value": [ "erythrite", 1.00] },
-{ "op":"add", "path":"/core/5/1/-","value": [ "erythrite", 1.15] }
+ { "op":"add", "path":"/surface/0/1/-","value": [ "erythrite", 0.00] },
+ { "op":"add", "path":"/surface/1/1/-","value": [ "erythrite", 0.00] },
+ { "op":"add", "path":"/surface/2/1/-","value": [ "erythrite", 0.00] },
+ { "op":"add", "path":"/surface/3/1/-","value": [ "erythrite", 0.00] },
+ { "op":"add", "path":"/surface/4/1/-","value": [ "erythrite", 0.00] },
+ { "op":"add", "path":"/surface/5/1/-","value": [ "erythrite", 0.00] },
+ { "op":"add", "path":"/depth1/0/1/-","value": [ "erythrite", 0.00] },
+ { "op":"add", "path":"/depth1/1/1/-","value": [ "erythrite", 0.00] },
+ { "op":"add", "path":"/depth1/2/1/-","value": [ "erythrite", 0.05] },
+ { "op":"add", "path":"/depth1/3/1/-","value": [ "erythrite", 0.10] },
+ { "op":"add", "path":"/depth1/4/1/-","value": [ "erythrite", 0.25] },
+ { "op":"add", "path":"/depth1/5/1/-","value": [ "erythrite", 0.40] },
+ { "op":"add", "path":"/depth2/0/1/-","value": [ "erythrite", 0.00] },
+ { "op":"add", "path":"/depth2/1/1/-","value": [ "erythrite", 0.05] },
+ { "op":"add", "path":"/depth2/2/1/-","value": [ "erythrite", 0.20] },
+ { "op":"add", "path":"/depth2/3/1/-","value": [ "erythrite", 0.40] },
+ { "op":"add", "path":"/depth2/4/1/-","value": [ "erythrite", 0.60] },
+ { "op":"add", "path":"/depth2/5/1/-","value": [ "erythrite", 0.85] },
+ { "op":"add", "path":"/depth3/0/1/-","value": [ "erythrite", 0.10] },
+ { "op":"add", "path":"/depth3/1/1/-","value": [ "erythrite", 0.25] },
+ { "op":"add", "path":"/depth3/2/1/-","value": [ "erythrite", 0.40] },
+ { "op":"add", "path":"/depth3/3/1/-","value": [ "erythrite", 0.65] },
+ { "op":"add", "path":"/depth3/4/1/-","value": [ "erythrite", 0.85] },
+ { "op":"add", "path":"/depth3/5/1/-","value": [ "erythrite", 0.95] },
+ { "op":"add", "path":"/core/0/1/-","value": [ "erythrite", 0.20] },
+ { "op":"add", "path":"/core/1/1/-","value": [ "erythrite", 0.40] },
+ { "op":"add", "path":"/core/2/1/-","value": [ "erythrite", 0.50] },
+ { "op":"add", "path":"/core/3/1/-","value": [ "erythrite", 0.75] },
+ { "op":"add", "path":"/core/4/1/-","value": [ "erythrite", 1.00] },
+ { "op":"add", "path":"/core/5/1/-","value": [ "erythrite", 1.15] },
+
+ {
+  "op": "replace",
+  "path": "/surface/0/1/0/1",
+  "value": 1.40
+ },
+ {
+  "op": "replace",
+  "path": "/surface/1/1/0/1",
+  "value": 1.40
+ },
+ {
+  "op": "replace",
+  "path": "/surface/2/1/0/1",
+  "value": 1.40
+ },
+ {
+  "op": "replace",
+  "path": "/surface/3/1/0/1",
+  "value": 1.40
+ },
+ {
+  "op": "replace",
+  "path": "/surface/4/1/0/1",
+  "value": 1.40
+ },
+ {
+  "op": "replace",
+  "path": "/surface/5/1/0/1",
+  "value": 1.40
+ },
+ {
+  "op": "replace",
+  "path": "/depth1/0/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth1/1/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth1/2/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth1/3/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth1/4/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth1/5/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth2/0/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth2/1/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth2/2/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth2/3/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth2/4/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth2/5/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth3/0/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth3/1/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth3/2/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth3/3/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth3/4/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth3/5/1/0/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/core/0/1/0/1",
+  "value": 1.00
+ },
+ {
+  "op": "replace",
+  "path": "/core/1/1/0/1",
+  "value": 1.00
+ },
+ {
+  "op": "replace",
+  "path": "/core/2/1/0/1",
+  "value": 1.00
+ },
+ {
+  "op": "replace",
+  "path": "/core/3/1/0/1",
+  "value": 1.00
+ },
+ {
+  "op": "replace",
+  "path": "/core/4/1/0/1",
+  "value": 1.00
+ },
+ {
+  "op": "replace",
+  "path": "/core/5/1/0/1",
+  "value": 1.00
+ },
+ {
+  "op": "replace",
+  "path": "/surface/0/1/1/1",
+  "value": 0.50
+ },
+ {
+  "op": "replace",
+  "path": "/surface/1/1/1/1",
+  "value": 0.50
+ },
+ {
+  "op": "replace",
+  "path": "/surface/2/1/1/1",
+  "value": 0.50
+ },
+ {
+  "op": "replace",
+  "path": "/surface/3/1/1/1",
+  "value": 0.50
+ },
+ {
+  "op": "replace",
+  "path": "/surface/4/1/1/1",
+  "value": 0.50
+ },
+ {
+  "op": "replace",
+  "path": "/surface/5/1/1/1",
+  "value": 0.50
+ },
+ {
+  "op": "replace",
+  "path": "/depth1/0/1/1/1",
+  "value": 1.20
+ },
+ {
+  "op": "replace",
+  "path": "/depth1/1/1/1/1",
+  "value": 1.30
+ },
+ {
+  "op": "replace",
+  "path": "/depth1/2/1/1/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth1/3/1/1/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth1/4/1/1/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth1/5/1/1/1",
+  "value": 1.15
+ },
+ {
+  "op": "replace",
+  "path": "/depth2/0/1/1/1",
+  "value": 1.25
+ },
+ {
+  "op": "replace",
+  "path": "/depth2/1/1/1/1",
+  "value": 1.35
+ },
+ {
+  "op": "replace",
+  "path": "/depth2/2/1/1/1",
+  "value": 1.20
+ },
+ {
+  "op": "replace",
+  "path": "/depth2/3/1/1/1",
+  "value": 1.20
+ },
+ {
+  "op": "replace",
+  "path": "/depth2/4/1/1/1",
+  "value": 1.20
+ },
+ {
+  "op": "replace",
+  "path": "/depth2/5/1/1/1",
+  "value": 1.20
+ },
+ {
+  "op": "replace",
+  "path": "/depth3/0/1/1/1",
+  "value": 1.30
+ },
+ {
+  "op": "replace",
+  "path": "/depth3/1/1/1/1",
+  "value": 1.40
+ },
+ {
+  "op": "replace",
+  "path": "/depth3/2/1/1/1",
+  "value": 1.25
+ },
+ {
+  "op": "replace",
+  "path": "/depth3/3/1/1/1",
+  "value": 1.25
+ },
+ {
+  "op": "replace",
+  "path": "/depth3/4/1/1/1",
+  "value": 1.25
+ },
+ {
+  "op": "replace",
+  "path": "/depth3/5/1/1/1",
+  "value": 1.25
+ },
+ {
+  "op": "replace",
+  "path": "/surface/2/1/2/1",
+  "value": 0.20
+ },
+ {
+  "op": "replace",
+  "path": "/surface/3/1/2/1",
+  "value": 0.20
+ },
+ {
+  "op": "replace",
+  "path": "/surface/4/1/2/1",
+  "value": 0.20
+ },
+ {
+  "op": "replace",
+  "path": "/surface/5/1/2/1",
+  "value": 0.20
+ },
 ]
